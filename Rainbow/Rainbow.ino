@@ -130,6 +130,7 @@ void updateColor(){
       float green = (1.0-progress) * COLORS_GREEN[COLOR_INDEX] + progress*COLORS_GREEN[COLOR_INDEX+1];
       float blue = (1.0-progress) * COLORS_BLUE[COLOR_INDEX] + progress*COLORS_BLUE[COLOR_INDEX+1];
 
+      // turn down the brightness so it's not so annoying at night...
       red *= 0.05;
       green *= 0.05;
       blue *= 0.05;
